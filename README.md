@@ -1,10 +1,10 @@
-# minisforum-HX90G-miniPC-Hackintosh
+# minisforum HX90G/HX99G miniPC Hackintosh
 
 [![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)
 
-#### 电脑配置
+![HX90G_1920](ScreenShots/HX90G_1920.png)
 
-![HX90G](https://images.daliansky.net/d/xD0Ar91B/blog/minisforum/HX90G/HX90G_1920.png?download=1)
+## 电脑配置
 
 |   规格   |                           详细信息                           |
 | :------: | :----------------------------------------------------------: |
@@ -19,3 +19,15 @@
 |   声卡   |                       USB Audio Device                       |
 | 无线网卡 | m.2 NGFF插槽，默认出厂为 `Mediatek RZ608` 已更换为[BCM94360Z3](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | 有线网卡 |               Intel Ethernet Controller I225-V               |
+
+## 截屏
+
+![1.About](ScreenShots/1.About.png)
+
+![2.About](ScreenShots/2.About.png)
+
+![Bluetooth](ScreenShots/Bluetooth.png)
+
+![I225-V_DHCP](ScreenShots/I225-V_DHCP.png)
+
+![I225-V_Hardware](ScreenShots/I225-V_Hardware.png)
