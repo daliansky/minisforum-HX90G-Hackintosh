@@ -1,6 +1,6 @@
 # minisforum HX90G/HX99G miniPC Hackintosh
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.6%2021G115-informational.svg)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.6-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0.1-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.6.1%2021G115-informational.svg)
 
 ![HX90G_1920](ScreenShots/HX90G_1920.png)
 
@@ -19,6 +19,14 @@
 |   声卡   |                       USB Audio Device                       |
 | 无线网卡 | m.2 NGFF插槽，默认出厂为 `Mediatek RZ608` 已更换为[BCM94360Z3](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | 有线网卡 |               Intel Ethernet Controller I225-V               |
+
+## 更新日志
+
+- 11-17-2022
+
+  - 更新 `OpenCore` 到 `v0.8.6`
+
+    
 
 ## 应用兼容列表
 
