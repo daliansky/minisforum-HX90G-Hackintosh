@@ -472,6 +472,64 @@
 		</dict>
 		<key>Force</key>
 		<array/>
+		<key>Quirks</key>
+		<dict>
+			<key>AppleCpuPmCfgLock</key>
+			<false/>
+			<key>AppleXcpmCfgLock</key>
+			<false/>
+			<key>AppleXcpmExtraMsrs</key>
+			<false/>
+			<key>AppleXcpmForceBoost</key>
+			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
+			<key>CustomSMBIOSGuid</key>
+			<true/>
+			<key>DisableIoMapper</key>
+			<true/>
+			<key>DisableLinkeditJettison</key>
+			<true/>
+			<key>DisableRtcChecksum</key>
+			<false/>
+			<key>ExtendBTFeatureFlags</key>
+			<false/>
+			<key>ExternalDiskIcons</key>
+			<true/>
+			<key>ForceAquantiaEthernet</key>
+			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
+			<key>IncreasePciBarSize</key>
+			<false/>
+			<key>LapicKernelPanic</key>
+			<false/>
+			<key>LegacyCommpage</key>
+			<false/>
+			<key>PanicNoKextDump</key>
+			<true/>
+			<key>PowerTimeoutKernelPanic</key>
+			<true/>
+			<key>ProvideCurrentCpuInfo</key>
+			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
+			<key>ThirdPartyDrives</key>
+			<false/>
+			<key>XhciPortLimit</key>
+			<false/>
+		</dict>
+		<key>Scheme</key>
+		<dict>
+			<key>CustomKernel</key>
+			<false/>
+			<key>FuzzyMatch</key>
+			<true/>
+			<key>KernelArch</key>
+			<string>x86_64</string>
+			<key>KernelCache</key>
+			<string>Auto</string>
+		</dict>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -928,13 +986,73 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>Base</key>
+				<string>__ZN11IOPCIBridge13probeBusGatedEP14probeBusParams</string>
+				<key>Comment</key>
+				<string>CaseySJ - probeBusGated Disable 10 bit tags - 12.0/13.0</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>5hFyBg==</data>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOPCIFamily</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>22.99.99</string>
+				<key>MinKernel</key>
+				<string>21.0.0</string>
+				<key>Replace</key>
+				<data>5hFzBg==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>__ZN17IOPCIConfigurator18IOPCIIsHotplugPortEP16IOPCIConfigEntry</string>
+				<key>Comment</key>
+				<string>CaseySJ - Fix PCI bus enumeration on AM5 - 13.0</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>hNt1S0GLVzg=</data>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IOPCIFamily</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>22.99.99</string>
+				<key>MinKernel</key>
+				<string>22.0.0</string>
+				<key>Replace</key>
+				<data>hNvrS0GLVzg=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
 				<string>algrey - _mtrr_update_action fix PAT - 10.13/10.14/10.15/11.0/12.0/13.0</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
 				<key>Identifier</key>
@@ -964,7 +1082,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
 				<key>Identifier</key>
@@ -985,64 +1103,6 @@
 				<integer>0</integer>
 			</dict>
 		</array>
-		<key>Quirks</key>
-		<dict>
-			<key>AppleCpuPmCfgLock</key>
-			<false/>
-			<key>AppleXcpmCfgLock</key>
-			<false/>
-			<key>AppleXcpmExtraMsrs</key>
-			<false/>
-			<key>AppleXcpmForceBoost</key>
-			<false/>
-			<key>CustomPciSerialDevice</key>
-			<false/>
-			<key>CustomSMBIOSGuid</key>
-			<true/>
-			<key>DisableIoMapper</key>
-			<true/>
-			<key>DisableLinkeditJettison</key>
-			<true/>
-			<key>DisableRtcChecksum</key>
-			<false/>
-			<key>ExtendBTFeatureFlags</key>
-			<false/>
-			<key>ExternalDiskIcons</key>
-			<true/>
-			<key>ForceAquantiaEthernet</key>
-			<false/>
-			<key>ForceSecureBootScheme</key>
-			<false/>
-			<key>IncreasePciBarSize</key>
-			<false/>
-			<key>LapicKernelPanic</key>
-			<false/>
-			<key>LegacyCommpage</key>
-			<false/>
-			<key>PanicNoKextDump</key>
-			<true/>
-			<key>PowerTimeoutKernelPanic</key>
-			<true/>
-			<key>ProvideCurrentCpuInfo</key>
-			<true/>
-			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
-			<key>ThirdPartyDrives</key>
-			<false/>
-			<key>XhciPortLimit</key>
-			<false/>
-		</dict>
-		<key>Scheme</key>
-		<dict>
-			<key>CustomKernel</key>
-			<false/>
-			<key>FuzzyMatch</key>
-			<true/>
-			<key>KernelArch</key>
-			<string>x86_64</string>
-			<key>KernelCache</key>
-			<string>Auto</string>
-		</dict>
 	</dict>
 	<key>Misc</key>
 	<dict>
