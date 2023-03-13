@@ -1,6 +1,6 @@
 # minisforum HX90G/HX99G miniPC Hackintosh
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.6-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0.1-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.6.1%2021G115-informational.svg)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.2.1-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.6.1%2021G115-informational.svg)
 
 ![HX90G_1920](ScreenShots/HX90G_1920.png)
 
@@ -25,6 +25,7 @@
 - 3-13-2023
   - 更新 `OpenCore` 到 `v0.9.0`
   - 更新了 `Intel I225-V` 的驱动方法
+  - 更新对 `Ventura 13.3+` 的支持
   
 - 02-28-2023
   * 更新 `OpenCore` 到 `v0.8.9`
