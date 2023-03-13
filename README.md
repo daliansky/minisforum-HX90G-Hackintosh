@@ -22,18 +22,20 @@
 
 ## 更新日志
 
+- 3-13-2023
+  - 更新 `OpenCore` 到 `v0.9.0`
+  - 更新了 `Intel I225-V` 的驱动方法
+  
 - 02-28-2023
-  
   * 更新 `OpenCore` 到 `v0.8.9`
-  
-  * 更新 `AMD_Vanilla` 到 `202302`
-  
-  * 更新 `AppleALC` 到 `v1.7.9`
-  
-  * 更新 `WhateverGreen` 到 `v1.6.4`
 
+  * 更新 `AMD_Vanilla` 到 `202302`
+
+  * 更新 `AppleALC` 到 `v1.7.9`
+
+  * 更新 `WhateverGreen` 到 `v1.6.4`
 - 11-17-2022
-  
+
   - 更新 `OpenCore` 到 `v0.8.6`
 
 ## 应用兼容列表
