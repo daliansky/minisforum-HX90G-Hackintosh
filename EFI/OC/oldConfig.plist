@@ -1365,8 +1365,6 @@
             <dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
-                    <key>#revcpuname</key>
-                    <string>AMD Ryzen™ 7 5800H</string>
                     <key>revcpu</key>
                     <integer>1</integer>
                     <key>revcpuname</key>
