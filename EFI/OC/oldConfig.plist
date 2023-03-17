@@ -426,7 +426,7 @@
                     <key>Comment</key>
                     <string>V1.6.5 | WhateverGreen.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
                     <key>MaxKernel</key>
@@ -1365,6 +1365,8 @@
             <dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
+                    <key>#revcpuname</key>
+                    <string>AMD Ryzen™ 7 5800H</string>
                     <key>revcpu</key>
                     <integer>1</integer>
                     <key>revcpuname</key>
@@ -1446,7 +1448,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K0211014NK3F78C</string>
+                <string>F5K3437014NK3F7CB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1460,9 +1462,9 @@
                 <key>SystemProductName</key>
                 <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KCR9ZNP7QM</string>
+                <string>F5KLLWYKP7QM</string>
                 <key>SystemUUID</key>
-                <string>6B96E2EF-5773-42F1-AFCB-3F97FB9191B2</string>
+                <string>97553AF7-398A-4A2B-818B-8CC97788E914</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
