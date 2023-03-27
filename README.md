@@ -1,4 +1,4 @@
-# minisforum HX90G/HX99G miniPC Hackintosh
+# minisforum HX80G/HX90G/HX99G miniPC Hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-HX90G-Hackintosh?style=for-the-badge) 
 
