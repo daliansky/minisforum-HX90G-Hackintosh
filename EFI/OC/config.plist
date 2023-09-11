@@ -231,7 +231,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.5 | Lilu.kext</string>
+                    <string>V1.6.8 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -249,7 +249,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.2</string>
+                    <string>V1.3.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -339,7 +339,7 @@
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.1 | NVMeFix.kext</string>
+                    <string>V1.1.2 | NVMeFix.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -375,7 +375,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.0 | RestrictEvents.kext</string>
+                    <string>V1.1.3 | RestrictEvents.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -429,7 +429,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.1 | AppleALC.kext</string>
+                    <string>V1.8.5 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -447,7 +447,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.5 | WhateverGreen.kext</string>
+                    <string>V1.6.7 | WhateverGreen.kext</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -465,7 +465,7 @@
                     <key>BundlePath</key>
                     <string>FeatureUnlock.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4</string>
+                    <string>V1.1.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -483,7 +483,7 @@
                     <key>BundlePath</key>
                     <string>AppleIGC.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.0d1</string>
+                    <string>V1.4d1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -581,7 +581,7 @@
                     <key>Base</key>
                     <string>_cpuid_set_info</string>
                     <key>Comment</key>
-                    <string>algrey - Force cpuid_cores_per_package 12.0/13.0</string>
+                    <string>algrey - Force cpuid_cores_per_package 12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -625,7 +625,7 @@
                     <key>Mask</key>
                     <data>//3/AAA=</data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>22.4.0</string>
                     <key>Replace</key>
@@ -641,7 +641,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>algrey - _commpage_populate - Remove rdmsr - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>algrey - _commpage_populate - Remove rdmsr - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -655,7 +655,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -671,7 +671,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>algrey - _cpuid_set_cache_info - Set cpuid to 0x8000001D instead 4 - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>algrey - _cpuid_set_cache_info - Set cpuid to 0x8000001D instead 4 - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -685,7 +685,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -701,7 +701,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>algrey - _cpuid_set_generic_info - Remove wrmsr - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>algrey - _cpuid_set_generic_info - Remove wrmsr - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -715,7 +715,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -731,7 +731,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>algrey - _cpuid_set_generic_info - Set microcode=186 - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>algrey - _cpuid_set_generic_info - Set microcode=186 - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -745,7 +745,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -761,7 +761,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>algrey - _cpuid_set_generic_info - Set flag=1 - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>algrey - _cpuid_set_generic_info - Set flag=1 - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -775,7 +775,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -805,7 +805,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>22.0.0</string>
                     <key>Replace</key>
@@ -851,7 +851,7 @@
                     <key>Base</key>
                     <string>_cpuid_set_info</string>
                     <key>Comment</key>
-                    <string>Goldfish64 / algrey - Bypass GenuineIntel check panic - 12.0/13.0</string>
+                    <string>Goldfish64 / algrey - Bypass GenuineIntel check panic - 12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -865,7 +865,7 @@
                     <key>Mask</key>
                     <data>AAAAAAAA/////w==</data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>21.0.0</string>
                     <key>Replace</key>
@@ -911,7 +911,7 @@
                     <key>Base</key>
                     <string>_cpuid_set_info </string>
                     <key>Comment</key>
-                    <string>algrey - _cpuid_set_cpufamily - Force CPUFAMILY_INTEL_PENRYN - 11.3 + / 12.0/13.0</string>
+                    <string>algrey - _cpuid_set_cpufamily - Force CPUFAMILY_INTEL_PENRYN - 11.3 + / 12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -925,7 +925,7 @@
                     <key>Mask</key>
                     <data>//8AAAAA//8=</data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>20.4.0</string>
                     <key>Replace</key>
@@ -941,7 +941,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>algrey - _i386_init - Remove rdmsr (x3) - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>algrey - _i386_init - Remove rdmsr (x3) - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
@@ -955,7 +955,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -985,7 +985,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -1001,7 +1001,7 @@
                     <key>Base</key>
                     <string>__ZN11IOPCIBridge13probeBusGatedEP14probeBusParams</string>
                     <key>Comment</key>
-                    <string>CaseySJ - probeBusGated Disable 10 bit tags - 12.0/13.0</string>
+                    <string>CaseySJ - probeBusGated Disable 10 bit tags - 12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -1015,7 +1015,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>21.0.0</string>
                     <key>Replace</key>
@@ -1045,7 +1045,7 @@
                     <key>Mask</key>
                     <data></data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>22.0.0</string>
                     <key>Replace</key>
@@ -1061,7 +1061,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>algrey - _mtrr_update_action fix PAT - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>algrey - _mtrr_update_action fix PAT - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
@@ -1075,7 +1075,7 @@
                     <key>Mask</key>
                     <data>////////D////////////////w==</data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -1091,7 +1091,7 @@
                     <key>Base</key>
                     <string></string>
                     <key>Comment</key>
-                    <string>Shaneee - _mtrr_update_action fix PAT - 10.13/10.14/10.15/11.0/12.0/13.0</string>
+                    <string>Shaneee - _mtrr_update_action fix PAT - 10.13/10.14/10.15/11.0/12.0/13.0/14.0</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
@@ -1105,7 +1105,7 @@
                     <key>Mask</key>
                     <data>////////D////////////////w==</data>
                     <key>MaxKernel</key>
-                    <string>22.99.99</string>
+                    <string>23.99.99</string>
                     <key>MinKernel</key>
                     <string>17.0.0</string>
                     <key>Replace</key>
@@ -1132,6 +1132,8 @@
                 <true/>
                 <key>DisableIoMapper</key>
                 <true/>
+                <key>DisableIoMapperMapping</key>
+                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -1189,6 +1191,8 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <true/>
+                <key>InstanceIdentifier</key>
+                <string></string>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
@@ -1386,7 +1390,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 debug=0x100 -lilubetaall</string>
+                    <string>revblock=pci revpatch=sbvmm keepsyms=1 debug=0x100 -lilubetaall</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1641,16 +1645,22 @@
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
                 <false/>
+                <key>ConsoleFont</key>
+                <string></string>
                 <key>ConsoleMode</key>
                 <string></string>
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
+                <key>GopBurstMode</key>
+                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
+                <key>InitialMode</key>
+                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -1706,6 +1716,8 @@
                 <false/>
                 <key>OSInfo</key>
                 <false/>
+                <key>PciIo</key>
+                <true/>
                 <key>UnicodeCollation</key>
                 <false/>
             </dict>
