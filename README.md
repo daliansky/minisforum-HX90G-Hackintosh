@@ -2,7 +2,7 @@
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-HX90G-Hackintosh?style=for-the-badge) 
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.2.1-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.6.1%2021G115-informational.svg)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-14.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.6-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.6.1%2021G115-informational.svg)
 
 [![HX90G_1920](ScreenShots/HX90G_1920.png)](https://item.taobao.com/item.htm?id=689916679408)
 
@@ -27,7 +27,7 @@
 
 - 10-8-2023
   - 更新 `OpenCore` 到 `v0.9.5`
-  - 更新对 `Sonoma` 的支持，博通网卡需要使用 `OCLP` 打补丁
+  - 更新对 `Sonoma` 的支持，博通网卡需要使用 `OCLP` 打补丁，附：[教程链接](https://blog.daliansky.net/OCLP.html)
   
 - 4-24-2023
   - 更新 `OpenCore` 到 `v0.9.1`
