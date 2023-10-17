@@ -1521,7 +1521,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>amfi=0x80 revpatch=sbvmm revblock=pci keepsyms=1 debug=0x100 -lilubetaall</string>
+                    <string>amfi=0x80 revpatch=sbvmm revblock=pci keepsyms=1 debug=0x100 -lilubetaall ipc_control_port_options=0</string>
                     <key>csr-active-config</key>
                     <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
