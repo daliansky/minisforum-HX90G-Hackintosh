@@ -2,7 +2,7 @@
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-HX90G-Hackintosh?style=for-the-badge) 
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.5-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-14.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.6-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.6.1%2021G115-informational.svg)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.9-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-14.4-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.6.5-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.7.4-informational.svg)
 
 [![HX90G_1920](ScreenShots/HX90G_1920.png)](https://item.taobao.com/item.htm?id=689916679408)
 
@@ -25,10 +25,12 @@
 
 ## 更新日志
 
+- 3-15-2024
+  - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
+  - `Sonoma` 如果想更新到 `14.4` 请务必先更新 `EFI` ，然后再安装 [OCLP]([OCLP.md | 黑果小兵的云盘 (daliansky.net)](https://pan.daliansky.net/APPS/OCLP/OCLP.md))，重启后，再升级到 `14.4` 否则会出现 `WIFI` 无法启用的问题
 - 10-8-2023
   - 更新 `OpenCore` 到 `v0.9.5`
   - 更新对 `Sonoma` 的支持，博通网卡需要使用 `OCLP` 打补丁，附：[教程链接](https://blog.daliansky.net/OCLP.html)
-  
 - 4-24-2023
   - 更新 `OpenCore` 到 `v0.9.1`
   - 此版本命名为 `夏凉版` ，禁用该参数，就是 `暖手宝` 版 `^_^`
