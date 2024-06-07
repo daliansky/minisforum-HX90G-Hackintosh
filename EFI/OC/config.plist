@@ -321,6 +321,24 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>AMFIPass.kext</string>
+                    <key>Comment</key>
+                    <string>V1.4.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AMFIPass</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>23.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>IOSkywalkFamily.kext</string>
                     <key>Comment</key>
                     <string>V1.0</string>
@@ -544,24 +562,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleIGC</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AMFIPass.kext</string>
-                    <key>Comment</key>
-                    <string>V1.4.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AMFIPass</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1571,23 +1571,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K2417014NK3F7FB</string>
+                <string>C02143101J9JG361M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>3841</integer>
                 <key>ROM</key>
-                <data>xAoFLPG2</data>
+                <data>w5pDbaSR</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacPro7,1</string>
+                <string>iMacPro1,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KJJUZYP7QM</string>
+                <string>C02GLTY6HX87</string>
                 <key>SystemUUID</key>
-                <string>581F7327-7078-479E-9642-A10659D9C365</string>
+                <string>CA52E135-BDF1-458F-8B3C-9C6D0766D237</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
