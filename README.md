@@ -2,7 +2,7 @@
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-HX90G-Hackintosh?style=for-the-badge) 
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.9-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-14.4-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.6.5-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-12.7.4-informational.svg)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.1-informational.svg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-informational.svg)
 
 [![HX90G_1920](ScreenShots/HX90G_1920.png)](https://item.taobao.com/item.htm?id=689916679408)
 
@@ -25,6 +25,9 @@
 
 ## 更新日志
 
+- 8-20-2024
+  - 更新`OpenCore` 到 `v1.0.1`
+  - 支持 `Sequoia`
 - 3-15-2024
   - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
   - `Sonoma` 如果想更新到 `14.4` 请务必先更新 `EFI` ，然后再安装 [OCLP]([OCLP.md | 黑果小兵的云盘 (daliansky.net)](https://pan.daliansky.net/APPS/OCLP/OCLP.md))，重启后，再升级到 `14.4` 否则会出现 `WIFI` 无法启用的问题
