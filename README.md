@@ -11,10 +11,9 @@
 |   规格   |                           详细信息                           |
 | :------: | :----------------------------------------------------------: |
 | 电脑型号 |                minisforum HX90G/HX99G miniPC                 |
-| 操作系统 |                 macOS `Ventura` / `Monterey`                 |
+| 操作系统 | macOS `Tahoe` / `Sequoia` / `Sonoma` / `Ventura` / `Monterey` |
 |  处理器  |       AMD 锐龙 R7-5800H 8核16线程[HX80G] `完美黑苹果`        |
 |  处理器  |       AMD 锐龙 R9-5900HX 8核16线程[HX90G] `完美黑苹果`       |
-|  处理器  |    AMD 锐龙 R9-6900HX 8核16线程[HX99G] `黑苹果适配中...`     |
 |   内存   |            64 GB DDR4 3200MHz / 64GB DDR5 4800MHz            |
 | 硬盘1/2  |                 支持双NVMe或NVMe+SATA自适应                  |
 |   显卡   |                 AMD Radeon RX6600m 8GB GDDR6                 |
@@ -25,6 +24,10 @@
 
 ## 更新日志
 
+- 11-22-2025
+  - 更新 `OpenCore` 到 `v1.0.6`
+  - 支持 `Tahoe`[Intel 无线网卡]
+  
 - 8-20-2024
   - 更新`OpenCore` 到 `v1.0.1`
   - 支持 `Sequoia`
