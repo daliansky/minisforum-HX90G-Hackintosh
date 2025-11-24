@@ -2,7 +2,7 @@
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-HX90G-Hackintosh?style=for-the-badge) 
 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.1-informational.svg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-informational.svg)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.6-informational.svg)![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg)![MacOS version](https://img.shields.io/badge/Sonoma-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-informational.svg)![MacOS version](https://img.shields.io/badge/Monterey-informational.svg)
 
 [![HX90G_1920](ScreenShots/HX90G_1920.png)](https://item.taobao.com/item.htm?id=689916679408)
 
